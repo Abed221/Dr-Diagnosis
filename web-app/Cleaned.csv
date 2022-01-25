@@ -1,0 +1,5 @@
+Diagnosis,Cough,Muscle aches,Tiredness,Sneezing,Sore throat,Runny or stuffy nose,Fever,Diarrhea,Nausea or vomiting,New loss of taste or smell,Itchy nose/eyes/mouth or inner ear,Pink eye (conjunctivitis),Shortness of breath or difficulty breathing
+Covid-19,0.8,0.8,0.8,0.2,0.8,0.8,0.8,0.5,0.5,0.8,0.0,0.5,0.8
+Cold,0.8,0.5,0.5,0.5,0.8,0.8,0.5,0.0,0.0,0.5,0.0,0.0,0.0
+Allergy,0.5,0.0,0.5,0.8,0.2,0.8,0.0,0.0,0.0,0.5,0.8,0.5,0.0
+Flu,0.8,0.8,0.8,0.0,0.8,0.8,0.8,0.5,0.5,0.2,0.0,0.0,0.8

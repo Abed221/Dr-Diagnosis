@@ -1,0 +1,97 @@
+<form id="questions" action="/res" method="POST">
+  {% csrf_token %}
+  <div>
+    <label for="s1"><b>Cough</b></label>
+    <select name="s1">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s2"><b>Muscle aches</b></label>
+    <select name="s2">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s3"><b>Tiredness</b></label>
+    <select name="s3">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s4"><b>Sneezing</b></label>
+    <select name="s4">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s5"><b>Sore throat</b></label>
+    <select name="s5">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s6"><b>Runny or stuffy nose</b></label>
+    <select name="s6">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s7"><b>Fever</b></label>
+    <select name="s7">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s8"><b>Diarrhea</b></label>
+    <select name="s8">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s9"><b>Nausea or vomiting</b></label>
+    <select name="s9">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s10"><b>New loss of taste or smell</b></label>
+    <select name="s10">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s11"><b>Itchy nose/eyes/mouth or inner ear</b></label>
+    <select name="s11">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s12"><b>Pink eye</b></label>
+    <select name="s12">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+    <label for="s13"><b>Shortness of breath or difficulty breathing</b></label>
+    <select name="s13">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+  </div>
+  <div>
+  <button id="next" class="btn">Submit</button>
+</div>
+</form>

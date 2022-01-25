@@ -1,0 +1,56 @@
+.btn_1, .btn_2, .regervation_part .btn_2:hover {
+  background-image: -webkit-linear-gradient(to right, #649bff, #0070fa, #649bff);
+  background-image: -o-linear-gradient(to right, #649bff, #0070fa, #649bff);
+  background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+}
+
+/* line 6, ../../01 cl html template/03_jun 2019/182_medico_html/sass/_extends.scss */
+.regervation_part .btn_2 {
+  background-image: -webkit-linear-gradient(to right, #fff, #fff, #fff);
+  background-image: -o-linear-gradient(to right, #fff, #fff, #fff);
+  background-image: linear-gradient(to right, #fff, #fff, #fff);
+}
+
+
+body {
+    background:  url("/static/images/reservation_bg.png") no-repeat;
+    /* Keep the inherited background full size. */
+    background-attachment: fixed; 
+    /*background-size: cover;*/
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    color: #05595f;
+  }
+  
+  .container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+  }
+
+.h1{
+    padding: 90px 0;
+    text-align: center;
+
+  }
